@@ -137,3 +137,13 @@ h4 {
     padding: 10px;
     /* margin-bottom: 20px; */
 }
+
+@media (min-width: 200px) {
+    .flex-item {width: 400px;}
+}
+@media (min-width: auto) {
+    .container {width:auto;}
+}
+@media (max-height: 800px) {
+    .grid-box {height:600px;}
+}
